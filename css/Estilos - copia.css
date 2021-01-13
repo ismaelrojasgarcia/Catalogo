@@ -1,0 +1,66 @@
+#logo{width: 100%;}
+#inicio{width: 30px; margin: 0px;}
+#buscar{color: white;}
+.form-inline{margin-left: auto;}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;}
+ 
+.texto-encima{   
+    top: 12px;
+    left: 50%;
+    color: white;
+
+    background-color: black;
+    font-weight: bold;   
+    padding: 2 2 2 2 px;
+
+    color: white;
+
+    font-family: sans-serif; 
+    font-size: 18px; 
+    font-weight: 400; 
+    padding: 10px;
+    overflow: hidden;}
+
+#verde{background-color: green;color: white;}
+#azul{background-color: blue;color: white;}
+#naranja{background-color: orange;color: white;}
+#negro{background-color: black;color: white;}
+
+#invierno{background-image: url(../img/Invierno.jpg);color: white;font-weight:bold;}
+#primavera{background-image: url(../img/Primavera.jpg);color: white;font-weight:bold;}
+#verano{background-image: url(../img/Verano.jpg);color: white;font-weight:bold;}
+#otoño{background-image: url(../img/Otoño.jpg);color: white;font-weight:bold;}
+
+#ta{background-color: purple;color: white;text-align: center;}
+
+/*Para un futoru mostra al pasar el mouse*/
+/*div#ainfo {
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    position: absolute;
+    background: #304152;
+    top: 52px;
+    left: 140px;
+    width: 260px;
+    z-index: 10;
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
+    color: #fff;
+    padding: 13px 15px;
+    opacity: 0;
+    visibility: hidden;
+}*/
+
+
+/*Portada*/
+.portada-box {position:relative;margin:0 0 10px 3px;padding:0;width:189px;height: 267px;border-radius:3px;float:left;}
+.portada-box h2 { position:absolute; top:0; left:0; margin:0; padding:6px 3%; width:100%; color:white;font-size:15px; line-height:120%; font-weight:normal; border-radius: 3px 3px 0 0; display:block; z-index:2;}
+/*.portada-box h2 a { color:white;display:block; }*/
+.portada-box img { position:relative; width:100%; height:auto; min-height:220px; border-radius:3px; }
+/*.portada-box:hover > h2 { background-color:#35A9E2; }*/
+

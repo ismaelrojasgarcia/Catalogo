@@ -1,0 +1,59 @@
+/*Estilos para la pagina principal*/
+table{margin: auto;margin-top:5%;width: 520px;height: 200px;}
+#imganime{background-image: url(../img/pantallaprincipal/FondoPA.jpg); width: 50%; height: 5%;}
+#imgvideojuegos{background-image: url(../img/pantallaprincipal/FondoPV.jpg); width: 50%; height: 5%;}
+table tr td a img{width: 30px;}
+table tr td form label img{width: 30px;}
+table tr th img{width: 55%; height: 23%;}
+table tr td a{color: white;}
+
+/*Estilos para el encabezado*/
+#logo{width: 100%;}
+#inicio{width: 30px; margin: 0px;}
+#buscar{color: white;}
+.form-inline{margin-left: auto;}
+
+/****************************************Estilos para la pagina de Animes*************************************/
+/*Estilos para colocar el color en los titulos*/
+#verde{background-color: green;color: white;}
+#azul{background-color: blue;color: white;}
+#naranja{background-color: orange;color: white;}
+#negro{background-color: black;color: white;}
+/*Estilos para colocar las imagenes y color en el filto de temporada*/
+#invierno{background-image: url(../img/animes/Invierno.jpg);color: white;font-weight:bold;}
+#primavera{background-image: url(../img/animes/Primavera.jpg);color: white;font-weight:bold;}
+#verano{background-image: url(../img/animes/Verano.jpg);color: white;font-weight:bold;}
+#otoño{background-image: url(../img/animes/Otoño.jpg);color: white;font-weight:bold;}
+
+#ta{background-color: purple;color: white;text-align: center;}
+
+/*Para un futoru mostra al pasar el mouse*/
+/*div#ainfo {
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    position: absolute;
+    background: #304152;
+    top: 52px;
+    left: 140px;
+    width: 260px;
+    z-index: 10;
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
+    color: #fff;
+    padding: 13px 15px;
+    opacity: 0;
+    visibility: hidden;
+}*/
+
+/*Estilos para la imagenes a mostrar de los animes*/
+.portada-box {position:relative;margin:0 0 10px 3px;padding:0;width:189px;height: 267px;border-radius:3px;float:left;}
+.portada-box h2 { position:absolute; top:0; left:0; margin:0; padding:6px 3%; width:100%; color:white;font-size:15px; line-height:120%; font-weight:normal; border-radius: 3px 3px 0 0; display:block; z-index:2;}
+/*.portada-box h2 a { color:white;display:block; }*/
+.portada-box img { position:relative; width:100%; height:auto; min-height:220px; border-radius:3px; }
+/*.portada-box:hover > h2 { background-color:#35A9E2; }*/
+
+/****************************************Estilos para la pagina de Videojuegos*************************************/
+
+
+
